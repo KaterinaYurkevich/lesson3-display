@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(images/headerback.jpg);
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-color: rgb(247, 247, 247);
+    padding: 30px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.logo {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.separator {
+    display: inline-block;
+    width: 3px;
+    height: 100px;
+    background-image: linear-gradient(to top, rgb(247, 247, 247), rgb(131, 131, 131), rgb(247, 247, 247));
+    vertical-align: middle;
+}
+
+.description {
+    display: inline-block;
+    width: 50%;
+    padding: 0 50px;
+    vertical-align: middle;
+}
+
+.selected_text {
+    font-size: 16px;
+    color: rgb(0, 125, 156);
+}
+
+p {
+    color: rgb(105, 105, 105);
+}
